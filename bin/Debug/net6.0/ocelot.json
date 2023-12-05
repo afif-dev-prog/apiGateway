@@ -1,0 +1,19 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5599"
+  },
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/assets/detail/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5242
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/detail/list",
+      "UpstreamHttpMethod": ["POST", "GET", "PUT"]
+    }
+  ]
+}
