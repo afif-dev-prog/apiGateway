@@ -4,12 +4,12 @@
   },
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/assets/detail/list",
+      "DownstreamPathTemplate": "/api/staff/detail/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5242
+          "Port": 5106
         }
       ],
       "UpstreamPathTemplate": "/gateway/assets/detail/list",

@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/afifjazimin/Documents/ApiGateWay/ApiGateWay.csproj": {}
+    "/home/afifjazimin/Documents/Microservice/apigateway/ApiGateWay.csproj": {}
   },
   "projects": {
-    "/home/afifjazimin/Documents/ApiGateWay/ApiGateWay.csproj": {
+    "/home/afifjazimin/Documents/Microservice/apigateway/ApiGateWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/afifjazimin/Documents/ApiGateWay/ApiGateWay.csproj",
+        "projectUniqueName": "/home/afifjazimin/Documents/Microservice/apigateway/ApiGateWay.csproj",
         "projectName": "ApiGateWay",
-        "projectPath": "/home/afifjazimin/Documents/ApiGateWay/ApiGateWay.csproj",
+        "projectPath": "/home/afifjazimin/Documents/Microservice/apigateway/ApiGateWay.csproj",
         "packagesPath": "/home/afifjazimin/.nuget/packages/",
-        "outputPath": "/home/afifjazimin/Documents/ApiGateWay/obj/",
+        "outputPath": "/home/afifjazimin/Documents/Microservice/apigateway/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/afifjazimin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Ocelot": {
               "target": "Package",
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
