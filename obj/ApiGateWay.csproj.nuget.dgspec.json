@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/afifjazimin/Documents/Microservice/apigateway/ApiGateWay.csproj": {}
+    "/home/afifjazimin/Documents/project/apigateway/ApiGateWay.csproj": {}
   },
   "projects": {
-    "/home/afifjazimin/Documents/Microservice/apigateway/ApiGateWay.csproj": {
+    "/home/afifjazimin/Documents/project/apigateway/ApiGateWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/afifjazimin/Documents/Microservice/apigateway/ApiGateWay.csproj",
+        "projectUniqueName": "/home/afifjazimin/Documents/project/apigateway/ApiGateWay.csproj",
         "projectName": "ApiGateWay",
-        "projectPath": "/home/afifjazimin/Documents/Microservice/apigateway/ApiGateWay.csproj",
+        "projectPath": "/home/afifjazimin/Documents/project/apigateway/ApiGateWay.csproj",
         "packagesPath": "/home/afifjazimin/.nuget/packages/",
-        "outputPath": "/home/afifjazimin/Documents/Microservice/apigateway/obj/",
+        "outputPath": "/home/afifjazimin/Documents/project/apigateway/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/afifjazimin/.nuget/NuGet/NuGet.Config"
