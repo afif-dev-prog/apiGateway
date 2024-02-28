@@ -1,6 +1,7 @@
 /home/afifjazimin/Documents/Microservice/apigateway/bin/Release/net8.0/publish/ApiGateWay
 /home/afifjazimin/Documents/Microservice/apigateway/bin/Release/net8.0/publish/appsettings.Development.json
 /home/afifjazimin/Documents/Microservice/apigateway/bin/Release/net8.0/publish/appsettings.json
+/home/afifjazimin/Documents/Microservice/apigateway/bin/Release/net8.0/publish/ocelot-prod.json
 /home/afifjazimin/Documents/Microservice/apigateway/bin/Release/net8.0/publish/ocelot.json
 /home/afifjazimin/Documents/Microservice/apigateway/bin/Release/net8.0/publish/ApiGateWay.dll
 /home/afifjazimin/Documents/Microservice/apigateway/bin/Release/net8.0/publish/ApiGateWay.deps.json
