@@ -484,6 +484,18 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
+      "DownstreamPathTemplate": "/api/assets/type/addtype",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/type/addtype",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
       "DownstreamPathTemplate": "/api/assets/userlog/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -494,6 +506,18 @@
       ],
       "UpstreamPathTemplate": "/gateway/assets/userlog/list",
       "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/userlog/addlog",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/userlog/addlog",
+      "UpstreamHttpMethod": ["POST"]
     },
     {
       "DownstreamPathTemplate": "/api/assets/status/list",
@@ -508,6 +532,42 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
+      "DownstreamPathTemplate": "/api/assets/status/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/status/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/status/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/status/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/status/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/status/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
       "DownstreamPathTemplate": "/api/assets/PIC/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -518,6 +578,66 @@
       ],
       "UpstreamPathTemplate": "/gateway/assets/PIC/list",
       "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/PIC/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/PIC/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/PIC/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/PIC/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/PIC/getbystaffno/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/PIC/getbystaffno/{id}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/PIC/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/PIC/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/PIC/deletemultiple/{ids}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/PIC/deletemultiple/{ids}",
+      "UpstreamHttpMethod": ["DELETE"]
     },
     {
       "DownstreamPathTemplate": "/api/assets/department/list",
@@ -544,6 +664,42 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
+      "DownstreamPathTemplate": "/api/assets/category/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/category/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/category/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/category/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/category/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/category/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
       "DownstreamPathTemplate": "/api/assets/branch/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -554,6 +710,42 @@
       ],
       "UpstreamPathTemplate": "/gateway/assets/branch/list",
       "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/branch/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/branch/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/branch/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/branch/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/branch/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/branch/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
     },
     {
       "DownstreamPathTemplate": "/api/assets/detail/list",
@@ -640,7 +832,7 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
-      "DownstreamPathTemplate": "/api/assets/movement/add",
+      "DownstreamPathTemplate": "/api/assets/movement/add/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -648,7 +840,7 @@
           "Port": 4001
         }
       ],
-      "UpstreamPathTemplate": "/gateway/assets/movement/add",
+      "UpstreamPathTemplate": "/gateway/assets/movement/add/{id}",
       "UpstreamHttpMethod": ["POST"]
     }
   ]
