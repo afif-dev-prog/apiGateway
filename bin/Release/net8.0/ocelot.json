@@ -76,6 +76,18 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
+      "DownstreamPathTemplate": "/api/staff/detail/upload",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/upload",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
       "DownstreamPathTemplate": "/api/staff/status/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
