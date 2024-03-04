@@ -100,7 +100,7 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
-      "DownstreamPathTemplate": "/api/staff/detail",
+      "DownstreamPathTemplate": "/api/staff/detail/search",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -108,7 +108,7 @@
           "Port": 4000
         }
       ],
-      "UpstreamPathTemplate": "/gateway/staff/detail",
+      "UpstreamPathTemplate": "/gateway/staff/detail/search",
       "UpstreamHttpMethod": ["GET"]
     },
     {
