@@ -88,6 +88,18 @@
       "UpstreamHttpMethod": ["POST"]
     },
     {
+      "DownstreamPathTemplate": "/api/staff/detail/image/delete/{picname}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/image/delete/{picname}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
       "DownstreamPathTemplate": "/api/staff/detail/session/{jwttoken}/{realm}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
