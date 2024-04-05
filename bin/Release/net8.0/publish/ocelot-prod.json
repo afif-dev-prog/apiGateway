@@ -16,7 +16,7 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
-      "DownstreamPathTemplate": "/api/staff/detail/person",
+      "DownstreamPathTemplate": "/api/staff/detail/person/{staffid}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -24,7 +24,7 @@
           "Port": 4000
         }
       ],
-      "UpstreamPathTemplate": "/gateway/staff/detail/person",
+      "UpstreamPathTemplate": "/gateway/staff/detail/person/{staffid}",
       "UpstreamHttpMethod": ["GET"]
     },
     {
