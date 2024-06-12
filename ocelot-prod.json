@@ -880,6 +880,18 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
+      "DownstreamPathTemplate": "/api/assets/detail/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/detail/{id}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
       "DownstreamPathTemplate": "/api/assets/detail/add",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
