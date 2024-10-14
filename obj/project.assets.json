@@ -941,11 +941,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/afifjazimin/.NetCore/apigateway/ApiGateWay.csproj",
+      "projectUniqueName": "/home/afifjazimin/Document/DotnetCore/apigateway/ApiGateWay.csproj",
       "projectName": "ApiGateWay",
-      "projectPath": "/home/afifjazimin/.NetCore/apigateway/ApiGateWay.csproj",
+      "projectPath": "/home/afifjazimin/Document/DotnetCore/apigateway/ApiGateWay.csproj",
       "packagesPath": "/home/afifjazimin/.nuget/packages/",
-      "outputPath": "/home/afifjazimin/.NetCore/apigateway/obj/",
+      "outputPath": "/home/afifjazimin/Document/DotnetCore/apigateway/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/afifjazimin/.nuget/NuGet/NuGet.Config"
@@ -1000,7 +1000,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
