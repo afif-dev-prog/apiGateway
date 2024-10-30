@@ -3,6 +3,7 @@
 /home/afifjazimin/Document/DotnetCore/apigateway/bin/Release/net8.0/publish/appsettings.json
 /home/afifjazimin/Document/DotnetCore/apigateway/bin/Release/net8.0/publish/ocelot-prod.json
 /home/afifjazimin/Document/DotnetCore/apigateway/bin/Release/net8.0/publish/ocelot.json
+/home/afifjazimin/Document/DotnetCore/apigateway/bin/Release/net8.0/publish/test.json
 /home/afifjazimin/Document/DotnetCore/apigateway/bin/Release/net8.0/publish/ApiGateWay.dll
 /home/afifjazimin/Document/DotnetCore/apigateway/bin/Release/net8.0/publish/ApiGateWay.deps.json
 /home/afifjazimin/Document/DotnetCore/apigateway/bin/Release/net8.0/publish/ApiGateWay.runtimeconfig.json

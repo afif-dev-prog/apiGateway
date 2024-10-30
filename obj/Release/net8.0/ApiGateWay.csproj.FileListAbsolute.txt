@@ -170,3 +170,4 @@
 /home/afifjazimin/Document/DotnetCore/apigateway/obj/Release/net8.0/ApiGateWay.pdb
 /home/afifjazimin/Document/DotnetCore/apigateway/obj/Release/net8.0/ApiGateWay.genruntimeconfig.cache
 /home/afifjazimin/Document/DotnetCore/apigateway/obj/Release/net8.0/ref/ApiGateWay.dll
+/home/afifjazimin/Document/DotnetCore/apigateway/bin/Release/net8.0/test.json
