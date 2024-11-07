@@ -952,6 +952,42 @@
       "UpstreamHttpMethod": ["POST"]
     },
     {
+      "DownstreamPathTemplate": "/api/assets/detail/file/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/detail/file/{id}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/component/{Id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/component/{Id}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/component/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/assets/component/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
       "DownstreamPathTemplate": "/api/assets/activity/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
