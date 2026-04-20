@@ -592,6 +592,174 @@
       "UpstreamHttpMethod": ["DELETE"]
     },
     {
+      "DownstreamPathTemplate": "/api/activity/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/activity/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/assets/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/assets/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/assets/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/assets/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/assets/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/category/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/category/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/childassets/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/childassets/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/childassets/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/childassets/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/childassets/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/childassets/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/childassets/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/childassets/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/movement/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/movement/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/status/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/status/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/types/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/types/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/userlog/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/inventory_2/userlog/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
       "DownstreamPathTemplate": "/api/assets/type/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [

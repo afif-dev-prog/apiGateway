@@ -1,0 +1,475 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5599"
+  },
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/staff/detail/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/detail/getstaffbystaffid/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/getstaffbystaffid/{id}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/detail/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/detail/update/{staffId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/update/{staffId}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/detail/delete/{staffId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/delete/{staffId}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/detail/searchbyunit/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/searchbyunit/{id}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/detail/upload",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/detail/upload",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/status/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/status/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/status/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/status/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/status/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/status/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/status/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/status/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/type/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/type/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/type/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/type/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/type/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/type/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/type/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/type/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/units/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/units/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/units/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/units/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/units/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/units/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/units/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/units/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/grade/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/grade/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/grade/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/grade/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/grade/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/grade/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/grade/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/grade/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/divisions/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/divisions/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/divisions/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/divisions/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/divisions/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/divisions/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/divisions/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/divisions/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/department/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/department/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/department/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/department/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/department/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/department/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/department/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/department/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/campus/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/campus/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/campus/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/campus/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/campus/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/campus/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/campus/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/campus/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/campus/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/campusunit/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/campusunit/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/campusunit/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/campusunit/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/campusunit/update/{id}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/staff/campusunit/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "159.223.68.67",
+          "Port": 4000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/staff/campusunit/delete/{id}",
+      "UpstreamHttpMethod": ["DELETE"]
+    }
+  ]
+}
