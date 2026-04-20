@@ -1,6 +1,6 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5599"
+    "BaseUrl": "http://45.127.5.209:5599"
   },
   "Routes": [
     {
@@ -304,7 +304,7 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
-      "DownstreamPathTemplate": "/api/staff/grade/{id}}",
+      "DownstreamPathTemplate": "/api/staff/grade/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -312,7 +312,7 @@
           "Port": 4000
         }
       ],
-      "UpstreamPathTemplate": "/gateway/staff/grade/{id}}",
+      "UpstreamPathTemplate": "/gateway/staff/grade/{id}",
       "UpstreamHttpMethod": ["GET"]
     },
     {
@@ -544,7 +544,7 @@
       "UpstreamHttpMethod": ["DELETE"]
     },
     {
-      "DownstreamPathTemplate": "/api/staff/campus/list",
+      "DownstreamPathTemplate": "/api/staff/campusunit/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1445,7 +1445,7 @@
       "UpstreamHttpMethod": ["PUT"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/permissions/user/{userId",
+      "DownstreamPathTemplate": "/api/voucher/permissions/user/{userId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1453,11 +1453,11 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/permissions/user/{userId",
+      "UpstreamPathTemplate": "/gateway/fvs/permissions/user/{userId}",
       "UpstreamHttpMethod": ["GET"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/permissions/user/{userId",
+      "DownstreamPathTemplate": "/api/voucher/permissions/user/{userId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1465,7 +1465,7 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/permissions/user/{userId",
+      "UpstreamPathTemplate": "/gateway/fvs/permissions/user/{userId}",
       "UpstreamHttpMethod": ["PUT"]
     },
     {

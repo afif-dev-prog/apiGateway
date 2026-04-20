@@ -45,3 +45,4 @@
 /home/afifjazimin/Document/DotnetCore/apigateway/obj/Release/net10.0/ApiGateWay.pdb
 /home/afifjazimin/Document/DotnetCore/apigateway/obj/Release/net10.0/ApiGateWay.genruntimeconfig.cache
 /home/afifjazimin/Document/DotnetCore/apigateway/obj/Release/net10.0/ref/ApiGateWay.dll
+/home/afifjazimin/Document/DotnetCore/apigateway/obj/Release/net10.0/ApiGateWay.sourcelink.json
