@@ -1276,7 +1276,7 @@
       "UpstreamHttpMethod": ["PUT"]
     },
     {
-      "DownstreamPathTemplate": "/api/Auth/me",
+      "DownstreamPathTemplate": "/api/voucher/auth/me",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1284,11 +1284,11 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/Auth/me",
+      "UpstreamPathTemplate": "/gateway/fvs/auth/me",
       "UpstreamHttpMethod": ["GET"]
     },
     {
-      "DownstreamPathTemplate": "/api/Auth/login",
+      "DownstreamPathTemplate": "/api/voucher/auth/login",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1296,11 +1296,11 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/Auth/login",
+      "UpstreamPathTemplate": "/gateway/fvs/auth/login",
       "UpstreamHttpMethod": ["POST"]
     },
     {
-      "DownstreamPathTemplate": "/api/Auth/logout",
+      "DownstreamPathTemplate": "/api/voucher/auth/logout",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1308,11 +1308,11 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/Auth/logout",
+      "UpstreamPathTemplate": "/gateway/fvs/auth/logout",
       "UpstreamHttpMethod": ["POST"]
     },
     {
-      "DownstreamPathTemplate": "/api/Auth/validate",
+      "DownstreamPathTemplate": "/api/voucher/auth/validate",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1320,7 +1320,7 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/Auth/validate",
+      "UpstreamPathTemplate": "/gateway/fvs/auth/validate",
       "UpstreamHttpMethod": ["POST"]
     },
     {
