@@ -1276,6 +1276,511 @@
       "UpstreamHttpMethod": ["PUT"]
     },
     {
+      "DownstreamPathTemplate": "/api/Auth/me",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/Auth/me",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Auth/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/Auth/login",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Auth/logout",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/Auth/logout",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Auth/validate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/Auth/validate",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/floating/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/floating/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/floating/paginated",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/floating/paginated",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/floating/proceedCredit",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/floating/proceedCredit",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/floating/delete/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/floating/delete/{studentId}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/floating/update/{hId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/floating/update/{hId}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/voucher/payhistory/create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payhistory/create",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/payhistory/seller",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payhistory/seller",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/permissions/role/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/permissions/role/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/permissions/role/{role}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/permissions/role/{role}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/permissions/role/{role}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/permissions/role/{role}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/permissions/user/{userId",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/permissions/user/{userId",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/permissions/user/{userId",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/permissions/user/{userId",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/transaction/{sellerName}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/transaction/{sellerName}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/findseller/{sellerId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/findseller/{sellerId}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/scantopay",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/scantopay",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/transaction",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/transaction",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/list/pagination",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/list/pagination",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/add",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/update/{sellerId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/update/{sellerId}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/seller/delete/{sellerId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/seller/delete/{sellerId}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/staff/count",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/count",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/staff/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/staff/creditvoucher",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/creditvoucher",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/staff/creditvoucherinbulk",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/creditvoucherinbulk",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/staff/parkvouchertofloat",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/parkvouchertofloat",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/list",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/find/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/find/{id}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/balance/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/balance/{studentId}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/transaction/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/transaction/{studentId}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/paginated",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/paginated",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/transaction/paginated/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/transaction/paginated/{studentId}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/addstudent",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/addstudent",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/addbulkstudent",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/addbulkstudent",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/updatedata/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/updatedata/{studentId}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/student/find/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/student/find/{studentId}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/deletedata/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/deletedata/{studentId}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/wrondcreditbyseller",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/wrondcreditbyseller",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
       "DownstreamPathTemplate": "/api/admin/users",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
