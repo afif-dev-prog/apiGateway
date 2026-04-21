@@ -1781,7 +1781,7 @@
       "UpstreamHttpMethod": ["GET"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/addstudent",
+      "DownstreamPathTemplate": "/api/voucher/student/studentscantopay",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1789,11 +1789,11 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/addstudent",
+      "UpstreamPathTemplate": "/gateway/fvs/student/studentscantopay",
       "UpstreamHttpMethod": ["POST"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/addbulkstudent",
+      "DownstreamPathTemplate": "/api/voucher/usermanagement/addstudent",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1801,11 +1801,11 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/addbulkstudent",
+      "UpstreamPathTemplate": "/gateway/fvs/usermanagement/addstudent",
       "UpstreamHttpMethod": ["POST"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/updatedata/{studentId}",
+      "DownstreamPathTemplate": "/api/voucher/usermanagement/addbulkstudent",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1813,11 +1813,23 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/updatedata/{studentId}",
+      "UpstreamPathTemplate": "/gateway/fvs/usermanagement/addbulkstudent",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/usermanagement/updatedata/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/usermanagement/updatedata/{studentId}",
       "UpstreamHttpMethod": ["PUT"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/student/find/{studentId}",
+      "DownstreamPathTemplate": "/api/voucher/usermanagement/student/find/{studentId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1825,11 +1837,11 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/student/find/{studentId}",
+      "UpstreamPathTemplate": "/gateway/fvs/usermanagement/student/find/{studentId}",
       "UpstreamHttpMethod": ["GET"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/deletedata/{studentId}",
+      "DownstreamPathTemplate": "/api/voucher/usermanagement/deletedata/{studentId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1837,11 +1849,11 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/deletedata/{studentId}",
+      "UpstreamPathTemplate": "/gateway/fvs/usermanagement/deletedata/{studentId}",
       "UpstreamHttpMethod": ["DELETE"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/student/usermanagement/wrondcreditbyseller",
+      "DownstreamPathTemplate": "/api/voucher/usermanagement/wrondcreditbyseller",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1849,7 +1861,7 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/student/usermanagement/wrondcreditbyseller",
+      "UpstreamPathTemplate": "/gateway/fvs/usermanagement/wrondcreditbyseller",
       "UpstreamHttpMethod": ["POST"]
     },
     {
