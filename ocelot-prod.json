@@ -1877,7 +1877,7 @@
       "UpstreamHttpMethod": ["DELETE"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/usermanagement/wrondcreditbyseller",
+      "DownstreamPathTemplate": "/api/voucher/usermanagement/wrongcreditbyseller",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1885,7 +1885,7 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/usermanagement/wrondcreditbyseller",
+      "UpstreamPathTemplate": "/gateway/fvs/usermanagement/wrongcreditbyseller",
       "UpstreamHttpMethod": ["POST"]
     },
     {
