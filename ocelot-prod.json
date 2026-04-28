@@ -1901,6 +1901,78 @@
       "UpstreamHttpMethod": ["POST"]
     },
     {
+      "DownstreamPathTemplate": "/api/voucher/payment/subscribe",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payment/subscribe",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/payment/initiate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payment/initiate",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/payment/approve/{paymentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payment/approve/{paymentId}",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/payment/reject/{paymentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payment/reject/{paymentId}",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/payment/status/{paymentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payment/status/{paymentId}",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/payment/pending",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payment/pending",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
       "DownstreamPathTemplate": "/api/admin/users",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
