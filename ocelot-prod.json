@@ -1913,6 +1913,18 @@
       "UpstreamHttpMethod": ["POST"]
     },
     {
+      "DownstreamPathTemplate": "/api/voucher/payment/vapid-public-key",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/payment/vapid-public-key",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
       "DownstreamPathTemplate": "/api/voucher/payment/initiate",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
