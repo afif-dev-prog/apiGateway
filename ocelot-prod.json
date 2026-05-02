@@ -1922,7 +1922,7 @@
         }
       ],
       "UpstreamPathTemplate": "/gateway/fvs/payment/vapid-public-key",
-      "UpstreamHttpMethod": ["POST"]
+      "UpstreamHttpMethod": ["GET"]
     },
     {
       "DownstreamPathTemplate": "/api/voucher/payment/initiate",
