@@ -1733,6 +1733,54 @@
       "UpstreamHttpMethod": ["POST"]
     },
     {
+      "DownstreamPathTemplate": "/api/voucher/staff/paginated",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/paginated",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/staff/addstaff",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/addstaff",
+      "UpstreamHttpMethod": ["POST"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/staff/updatedate/{staffId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/updatedate/{staffId}",
+      "UpstreamHttpMethod": ["PUT"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/voucher/staff/deletedata/{staffId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "45.127.5.209",
+          "Port": 4005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/fvs/staff/deletedata/{staffId}",
+      "UpstreamHttpMethod": ["DELETE"]
+    },
+    {
       "DownstreamPathTemplate": "/api/voucher/student/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
