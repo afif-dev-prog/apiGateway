@@ -1757,7 +1757,7 @@
       "UpstreamHttpMethod": ["POST"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/staff/updatedate/{staffId}",
+      "DownstreamPathTemplate": "/api/voucher/staff/updatedata/{staffId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1765,7 +1765,7 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/staff/updatedate/{staffId}",
+      "UpstreamPathTemplate": "/gateway/fvs/staff/updatedata/{staffId}",
       "UpstreamHttpMethod": ["PUT"]
     },
     {
