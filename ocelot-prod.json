@@ -1324,7 +1324,7 @@
       "UpstreamHttpMethod": ["POST"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/voucher/auth/list",
+      "DownstreamPathTemplate": "/api/voucher/auth/list",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
