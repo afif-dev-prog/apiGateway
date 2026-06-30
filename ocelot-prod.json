@@ -1913,7 +1913,7 @@
       "UpstreamHttpMethod": ["POST"]
     },
     {
-      "DownstreamPathTemplate": "/api/voucher/student/zerolisevoucher/{studentId}",
+      "DownstreamPathTemplate": "/api/voucher/student/zerolisevoucher",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -1921,7 +1921,7 @@
           "Port": 4005
         }
       ],
-      "UpstreamPathTemplate": "/gateway/fvs/student/zerolisevoucher/{studentId}",
+      "UpstreamPathTemplate": "/gateway/fvs/student/zerolisevoucher",
       "UpstreamHttpMethod": ["POST"]
     },
     {
